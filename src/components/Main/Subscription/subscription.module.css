@@ -1,0 +1,76 @@
+.subscription {
+  padding-top: 160px;
+}
+
+.subscriptionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 75px;
+  border-radius: 20px 129px 20px 20px;
+  background: url('@assets/form-background.png') no-repeat center / cover;
+  padding: 80px 155px;
+  position: relative;
+}
+
+.subscriptionContentMail {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+
+.subscriptionContentTitle {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subscriptionForm {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.subscriptionFormInput {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(57, 66, 93, 1);
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: none;
+  outline: none;
+  padding: 25px 30px;
+  width: 420px;
+}
+
+.subscriptionFormBtn {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans';
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 148, 109, 1),
+    rgba(255, 125, 104, 1)
+  );
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.subscriptionFormBtn:hover {
+  opacity: 1;
+}

@@ -1,0 +1,19 @@
+import React from 'react';
+import Header from './components/Header/Header';
+import Hero from './components/Header/Hero/Hero';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
+
+function App() {
+  return (
+    <>
+      <Header>
+        <Hero />
+      </Header>
+      <Main />
+      <Footer />
+    </>
+  );
+}
+
+export default App;

@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0px auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* [data-animate] {
+  opacity: 0;
+} */

@@ -1,0 +1,92 @@
+.trips {
+  padding-top: 185px;
+}
+
+.tripsContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tripsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.tripsTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.tripsBlockSubTitle {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+
+.tripsBlockTitle {
+  color: rgba(20, 24, 62, 1);
+  font-family: 'Volkhov';
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.tripsSteps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.tripStep {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.tripStepImg {
+  border-radius: 13px;
+  width: 45px;
+  padding: 8px;
+  height: 45px;
+}
+
+.tripStepText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.tripStepTextTitle {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 124.5%;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+
+.tripStepTextItem {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 124.5%;
+  letter-spacing: 0%;
+  margin: 0px;
+}

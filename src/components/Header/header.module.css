@@ -1,0 +1,147 @@
+.header {
+  padding-top: 50px;
+  background: url('@assets/decore.png') no-repeat 75% top / cover;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.navBarItem {
+  color: rgba(33, 40, 50, 1);
+  font-family: 'Google Sans';
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.navBarItem:hover {
+  opacity: 1;
+}
+
+.headerContentBtn {
+  color: rgba(33, 40, 50, 1);
+  font-family: 'Google Sans';
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  padding: 10px 20px;
+  border: 1px solid rgba(33, 40, 50, 1);
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+.hero {
+  padding-top: 140px;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.heroTextSubTitle {
+  color: rgba(223, 105, 81, 1);
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.heroTextTitle {
+  color: rgba(24, 30, 75, 1);
+  font-family: 'Volkhov';
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -4%;
+  width: 545px;
+  margin: 0px;
+}
+
+.heroTextDescription {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  width: 475px;
+}
+
+.heroBtns {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.findOut {
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Google Sans';
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  padding: 15px 25px;
+  background-color: rgba(241, 165, 1, 1);
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.findOut:hover {
+  opacity: 1;
+}
+
+.demo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgba(104, 109, 119, 1);
+  font-family: 'Poppins';
+  font-style: Medium;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+
+.demoImg {
+  padding: 20px;
+  border-radius: 100%;
+  box-shadow: 0px 15px 30px 0px rgba(223, 105, 81, 0.3);
+  background: rgba(223, 105, 81, 1);
+}
+
+.heroContentImg {
+  object-fit: cover;
+}

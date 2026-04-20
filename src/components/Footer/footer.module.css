@@ -1,0 +1,157 @@
+.footer {
+  padding-top: 160px;
+  padding-bottom: 60px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logoInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.logoInformationTitle {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 124.5%;
+  letter-spacing: 0%;
+  margin: 0px;
+  width: 205px;
+}
+
+.blockTip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  height: 200px;
+}
+
+.blockTipTitle {
+  color: rgba(8, 8, 9, 1);
+  font-family: 'Poppins';
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 124.5%;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+
+.listTips {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px;
+  list-style: none;
+}
+
+.listTipsItem {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 124.5%;
+  letter-spacing: 0%;
+  margin: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.listTipsItem:hover {
+    opacity: 1;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.networks {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.network {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.network::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(255, 255, 255, 0) 0deg,
+    rgba(184, 210, 241, 1) 0deg,
+    rgba(242, 137, 170, 1) 61.2deg,
+    rgba(198, 139, 240, 1) 104.39999999999999deg,
+    rgba(209, 100, 218, 1) 154.8deg,
+    rgba(201, 99, 232, 1) 219.6deg,
+    rgba(191, 194, 232, 1) 259.2deg,
+    rgba(255, 201, 153, 1) 288deg,
+    rgba(208, 216, 201, 1) 316.8deg,
+    rgba(186, 208, 241, 1) 334.8deg,
+    rgba(206, 216, 203, 1) 360deg,
+    rgba(255, 255, 255, 0) 360deg,
+    rgba(184, 210, 241, 1) 360deg
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.network:hover::before {
+  opacity: 1;
+}
+
+.network:hover .networkImg {
+  color: white;
+  cursor: pointer;
+}
+
+.appDiscover {
+  color: rgba(94, 98, 130, 1);
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 124.5%;
+  letter-spacing: 0.5%;
+  margin: 0px;
+}
+
+.stores {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.stores img {
+  cursor: pointer;
+}

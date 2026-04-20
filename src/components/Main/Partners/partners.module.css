@@ -1,0 +1,43 @@
+.partners {
+  padding-top: 130px;
+}
+
+.partnersContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partner {
+  filter: grayscale(100%);
+  transition:
+    filter 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.partner:hover {
+  filter: grayscale(0%);
+  border-radius: 10px;
+  box-shadow:
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02),
+    0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02),
+    0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 8.15px 6.51px 0px rgba(0, 0, 0, 0.01),
+    0px 1.85px 3.14px 0px rgba(0, 0, 0, 0);
+  background: rgba(255, 255, 255, 1);
+}
+
+.partner img {
+  max-width: 100%;
+  height: auto;
+}
