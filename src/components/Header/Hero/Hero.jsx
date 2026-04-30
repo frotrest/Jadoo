@@ -3,7 +3,7 @@ import styles from '../header.module.css';
 import Container from '../../../Container';
 import React from 'react';
 import { FaPlay } from 'react-icons/fa6';
-import HeroImg from '@assets/hero.png';
+import HeroImg from '@assets/hero.webp';
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <img src={HeroImg} alt="hero" className={clsx(styles.heroContentImg)} />
+        <img src={HeroImg} alt="hero" className={clsx(styles.heroContentImg)} fetchPriority="high" />
       </Container>
     </section>
   );

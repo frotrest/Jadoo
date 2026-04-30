@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 import styles from './footer.module.css';
 import Container from '../../Container';
-import Logo from '@assets/logo.png';
-import GoogleStore from '@assets/google-play.png';
-import AppleStore from '@assets/apple-store.png';
+import Logo from '@assets/logo.webp';
+import GoogleStore from '@assets/google-play.webp';
+import AppleStore from '@assets/apple-store.webp';
 import React from 'react';
 import { FaFacebookF } from 'react-icons/fa6';
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -17,6 +17,7 @@ const Footer = () => {
             src={Logo}
             alt="logo-footer"
             className={clsx(styles.logoInformationImg)}
+            loading="lazy"
           />
           <h5 className={clsx(styles.logoInformationTitle)}>
             Book your trip in minute, get full Control for much longer.

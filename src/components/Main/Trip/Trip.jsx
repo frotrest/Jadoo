@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './trip.module.css';
 import Container from '../../../Container';
-import Trips from '@assets/trips.png';
+import Trips from '@assets/trips.webp';
 import React from 'react';
 import { BiArea } from 'react-icons/bi';
 import { TbSwimming } from 'react-icons/tb';
@@ -67,7 +67,7 @@ const Trip = () => {
             ))}
           </div>
         </div>
-        <img src={Trips} alt="trips" />
+        <img src={Trips} alt="trips" loading="lazy" />
       </Container>
     </section>
   );
