@@ -33,7 +33,12 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <img src={HeroImg} alt="hero" className={clsx(styles.heroContentImg)} fetchPriority="high" />
+        <img
+          src={HeroImg}
+          alt="hero"
+          className={clsx(styles.heroContentImg)}
+          fetchPriority="high"
+        />
       </Container>
     </section>
   );

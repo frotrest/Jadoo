@@ -31,7 +31,11 @@ const Partners = () => {
       <Container className={clsx(styles.partnersContent)} dataAnimate="fadeIn">
         {partners.map((item, index) => (
           <div key={index} className={clsx(styles.partner)}>
-            <img src={item.partnerImg} alt={`partner-${index}`} loading="lazy" />
+            <img
+              src={item.partnerImg}
+              alt={`partner-${index}`}
+              loading="lazy"
+            />
           </div>
         ))}
       </Container>
