@@ -8,7 +8,7 @@
   align-items: center;
   gap: 75px;
   border-radius: 20px 129px 20px 20px;
-  background: url('@assets/form-background.png') no-repeat center / cover;
+  background: url('@assets/form-background.webp') no-repeat center / cover;
   padding: 80px 155px;
   position: relative;
 }

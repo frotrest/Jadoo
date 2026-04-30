@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './testimonials.module.css';
 import Container from '../../../Container';
-import Mike from '@assets/mike.png';
+import Mike from '@assets/mike.webp';
 import React from 'react';
 import { BiArea } from 'react-icons/bi';
 import { TbSwimming } from 'react-icons/tb';
@@ -70,6 +70,7 @@ const Testimonials = () => {
                 src={Mike}
                 alt={`customer-${index}`}
                 className={clsx(styles.customerCardImg)}
+                loading="lazy"
               />
               <div className={clsx(styles.customerCard)}>
                 <p className={clsx(styles.customerCardText)}>“{item.text}”</p>

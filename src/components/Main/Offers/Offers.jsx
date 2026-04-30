@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import styles from './offer.module.css';
 import Container from '../../../Container';
-import Weather from '@assets/weather.png';
-import AirPlane from '@assets/airplane.png';
-import Events from '@assets/events.png';
-import Customization from '@assets/customization.png';
+import Weather from '@assets/weather.webp';
+import AirPlane from '@assets/airplane.webp';
+import Events from '@assets/events.webp';
+import Customization from '@assets/customization.webp';
 import React from 'react';
 
 const Offers = () => {
@@ -53,7 +53,7 @@ const Offers = () => {
         <div className={clsx(styles.cardsOffers)}>
           {offers.map((item, index) => (
             <div key={index} className={clsx(styles.cardOffer)}>
-              <img src={item.offerImg} alt={item.offerImgAlt} />
+              <img src={item.offerImg} alt={item.offerImgAlt} loading="lazy" />
               <h2 className={clsx(styles.cardOfferTitle)}>{item.offerTitle}</h2>
               <p className={clsx(styles.cardOfferItem)}>
                 {item.offerDescription}

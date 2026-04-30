@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './subscription.module.css';
 import Container from '../../../Container';
-import Mail from '@assets/mail.png';
+import Mail from '@assets/mail.webp';
 import React, { useState } from 'react';
 
 const Subscription = () => {
@@ -21,6 +21,7 @@ const Subscription = () => {
           src={Mail}
           alt="mail"
           className={clsx(styles.subscriptionContentMail)}
+          loading="lazy"
         />
         <h2 className={clsx(styles.subscriptionContentTitle)}>
           Subscribe to get information, latest news and other interesting offers

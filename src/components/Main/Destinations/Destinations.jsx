@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 import styles from './destinations.module.css';
 import Container from '../../../Container';
-import Rome from '@assets/rome.png';
-import London from '@assets/london.jpg';
-import Europe from '@assets/europe.png';
+import Rome from '@assets/rome.webp';
+import London from '@assets/london.webp';
+import Europe from '@assets/europe.webp';
 import React from 'react';
 import { IoIosSend } from 'react-icons/io';
 
@@ -48,6 +48,7 @@ const Destinations = () => {
                 src={item.destinationImg}
                 alt={item.destinationImgAlt}
                 className={clsx(styles.cardDestinationImg)}
+                loading="lazy"
               />
               <div className={clsx(styles.cardContent)}>
                 <div className={clsx(styles.cardContentTitles)}>
